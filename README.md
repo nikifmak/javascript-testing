@@ -1,4 +1,4 @@
-# Javascript-testing
+# Javascript Testing
 
 A brief overview of the current javascript testing tools
 
