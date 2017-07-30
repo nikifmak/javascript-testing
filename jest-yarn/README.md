@@ -21,7 +21,7 @@ First things first, lets create a folder:
 
 Initialize an npm repository: 
 
-> ```Bash
+> ```Shell
 > yarn init -y
 > ```
 

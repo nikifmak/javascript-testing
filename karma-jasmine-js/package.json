@@ -1,0 +1,17 @@
+{
+  "name": "karma-jasmine-js",
+  "version": "1.0.0",
+  "description": "Quick starter bundle for karma with jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "author": "nikifmak",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
