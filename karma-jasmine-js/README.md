@@ -1,4 +1,4 @@
-# Karma - Jasmine-js
+# Karma - Jasmine - JS
 
 In this section we are going to see how to setup a javascript testing environment with [Karma](https://karma-runner.github.io/1.0/index.html) and [Jasmine](https://jasmine.github.io).
 
@@ -6,7 +6,7 @@ In this section we are going to see how to setup a javascript testing environmen
 >
 > https://jasmine.github.io
 
-## Karma - Spectacular Test Runner for JavaScript 
+## Karma - Spectacular Test Runner for JavaScript
 
 About:
 
@@ -32,7 +32,7 @@ From karma's GitHub page:
 > - You want to use [Istanbul](https://github.com/gotwarlost/istanbul) to automagically generate coverage reports.
 > - You want to use [RequireJS](http://requirejs.org/) for your source files.
 
-Also: 
+Also:
 
 > ## But I still want to use _insert testing library_
 >
@@ -86,9 +86,9 @@ As is stated in karma's docs:
 
 > In order to serve you well, Karma needs to know about your project in order to test it and this is done via a configuration file. The easiest way to generate an initial configuration file is by using the `karma init` command. This page lists all of the available configuration options.
 >
-> #### Note: 
+> #### Note:
 >
-> Most of the framework adapters, reporters, preprocessors and launchers need to be loaded as 
+> Most of the framework adapters, reporters, preprocessors and launchers need to be loaded as
 >
 > plugins.
 
@@ -132,7 +132,7 @@ So let's create the `karma.config.js`:
 > ./node_modules/karma/bin/karma init
 > ```
 
-Or 
+Or
 
 > Typing `./node_modules/karma/bin/karma start` sucks and so you might find it useful to install `karma-cli` globally. You will need to do this if you want to run Karma on Windows from the command line.
 >
@@ -145,7 +145,7 @@ Create a configuration file for Karma using its built-in utility. On the command
 1. For the framework, press Tab until you see `Jasmine`
 2. For the files, we will enter `js/**/*.js` and `test/**/*.test.js` (matching the folders where we put our unit and unit test code, with `**` meaning “include all subfolders”)
 3. For the browser, select whichever you have installed. Note that browser names in the configuration file are case-sensitive, for example `Chrome`, `IE`, or `Firefox`, whereas in their related npm package names they're lower case.
-4. Accept the defaults for everything else. 
+4. Accept the defaults for everything else.
 
 Again, see [karma-jasmine-cli](https://github.com/Microsoft/cordova-samples/tree/master/unit-testing/karma-jasmine-cli) for the full sample code including a configuration file.
 
@@ -188,7 +188,7 @@ Again, see [karma-jasmine-cli](https://github.com/Microsoft/cordova-samples/tree
 > Config file generated at "/Users/nikif/Desktop/javascript-testing/karma-jasmine-js/karma.conf.js".
 > ```
 
-#### Generated karma.config.js 
+#### Generated karma.config.js
 
 Now the we can see the **`karma.confing.js`** on our project folder:
 
@@ -289,7 +289,7 @@ Let's create the source and test folders as well as some javascript files:
 
 ## Writing our tests
 
-Let's create a **`helloWorld.js`** on **`/js`**  folder and the respective **`test/helloWorld.test.js `**: 
+Let's create a **`helloWorld.js`** on **`/js`**  folder and the respective **`test/helloWorld.test.js `**:
 
 > ```shell
 > touch js/helloWorld.js test/helloWorld.js
